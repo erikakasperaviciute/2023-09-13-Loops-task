@@ -48,6 +48,10 @@ for (let i = 1; i <= 100; i++) {
     console.log("FizzBuzzBiffFuzz");
   } else if (i % 3 === 0 && i % 5 === 0 && i % 9 === 0) {
     console.log("FizzBuzzFuzz");
+  } else if (i % 3 === 0 && i % 7 === 0 && i % 9 === 0) {
+    console.log("FizzBiffFuzz");
+  } else if (i % 5 === 0 && i % 7 === 0 && i % 9 === 0) {
+    console.log("BuzzBiffFuzz");
   } else if (i % 7 === 0 && i % 9 === 0) {
     console.log("BiffFuzz");
   } else if (i % 5 === 0 && i % 9 === 0) {
